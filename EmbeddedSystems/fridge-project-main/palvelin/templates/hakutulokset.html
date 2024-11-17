@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fi" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="StyleSheet" href="{{ url_for('static', filename='tyylit.css') }}" type="text/css" />
+<title>Haku</title>
+</head>
+
+
+<body>
+<div id="haku">
+    <!--Painonapit pääsivulle siirtymistä ja uloskirjautumista varten-->
+<div class="ylanavi" id="ylanavi">
+    <a href="{{'laakehuone'}}"><button> PÄÄSIVU </button></a>
+    <a href="{{'logout'}}"><button> LOGOUT </button></a>
+</div>
+<!--Lomake, tietokannasta tehtävien mittaushakujen tekoon: -->
+<div id="hakudiv">
+        <form action="{{request.base_url}}" method="POST" id="hakulomake">
+        {{ lomake.csrf_token }}
+        <h3>Hae mittauksia </h3>
+        <p>
+            <!--Valitaan lääkehuoneen alue-->
+            <label>Alue
+            {{lomake.alue}}
+            </label>
+        </p>
+        <!--Valitaan päivämäärät ja kellonajat-->
+        <fieldset>
+            <legend>Valitse päivämäärien väli:</legend>
+            <p>
+            <label>Aloitus
+            {{lomake.pvmA}}
+            </label>
+            </p>
+            <label>Lopetus
+            {{lomake.pvmL}}
+            </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Valitse aikaväli:</legend>
+            <p>
+            <label>Aloitus
+            {{lomake.aikaA}}
+            </label>
+            </p>
+            <label>Lopetus
+            {{lomake.aikaL}}
+            </label>
+            </p>
+        </fieldset>
+        <div id="hakupainike">
+        <input type="submit" value="Hae mittaukset" />
+        </div>
+        <div class='tyhja'></div>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

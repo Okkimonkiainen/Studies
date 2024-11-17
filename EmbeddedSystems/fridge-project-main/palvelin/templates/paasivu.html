@@ -1,0 +1,118 @@
+{% extends "pohja.html" %} <!--Toimii pohjana -->
+{% block title %}Pääsivu{% endblock %}
+{% block content %}
+<!--Lääkehuoneen alue: Lääkehuone/Avohyllyt-->
+<!--Luodaan vierityksellä toimivia taulukoita niin monta kuin valitulla lääkehuoneen alueella, Lääkehuone/Avohyllyt, on mitattavia olosuhteita: -->
+<div class="taulukko">
+    {%for t in tmaara%}
+        <table class="fixed">
+            <thead>
+                <tr class="sensori">
+                    <!--Olosuhteen nimi taulukon otsikkona:-->
+                    <th colspan="3">{{t}}</th>
+                </tr>
+                <!--Sarakkeiden otsikot:-->
+                <tr class="otsikko">
+                    <th>Aika</th>
+                    <th>Arvo</th>
+                    <th>Kuitattu</th>
+                </tr>
+            </thead>
+            <!--Esitetään taulukossa olosuhteeseen liittyvät mittaukset:-->
+            <tbody class="skrolli"> <!--Kun mittauksia on riittävästi, alue muuttuu vieritettäväksi:-->
+                <!--Lämpötila-->
+                {%if(t=='Lämpötila')%}
+                {%for l in laakehuone%}
+                {%if l['olosuhde']=='lämpötila'%}
+                <tr>
+                    <td>{{l['aika'].strftime("%H:%M")}}</td>
+                    <td>{{l['tulos']}} °C</td>
+                    <!--Tarkistetaan, onko arvo kuitattu. Jos kuittaus tapauhtunut, muodostuu vihreä pallo-->
+                    {%if l['kuitattu']==1%}
+                    <td><svg width="15" height="15">
+                            <circle class="kuitattu" cx="7" cy="7" r=6></circle>
+                        </svg></td>
+                    {%else%}
+                    <td></td>
+                    {%endif%}
+                </tr>
+                {%endif%}
+                {%endfor%}
+                {%endif%}
+                <!--Ilmankosteus-->
+                {%if(t=='Ilmankosteus')%}
+                {%for l in laakehuone%}
+                {%if l['olosuhde']=='ilmankosteus'%}
+                <tr>
+                    <td>{{l['aika'].strftime("%H:%M")}}</td>
+                    <td>{{l['tulos']}} %</td>
+                    <!--Tarkistetaan, onko arvo kuitattu. Jos kuittaus tapauhtunut, muodostuu vihreä pallo-->
+                    {%if l['kuitattu']==1%}
+                    <td><svg width="15" height="15">
+                            <circle class="kuitattu" cx="7" cy="7" r=6></circle>
+                        </svg></td>
+                    {%else%}
+                    <td></td>
+                    {%endif%}
+                </tr>
+                {%endif%}
+                {%endfor%}
+                {%endif%}
+
+                <!--Valo-->
+                <!--Määritellään sanallisesti, onko todettu valoisuuden arvo poikkeava vai normaali-->
+                {%if(t=='Valoisuus')%}
+                {%for l in laakehuone%}
+                {%if l['olosuhde']=='valo'%}
+                <tr>
+                    <td>{{l['aika'].strftime("%H:%M")}}</td>
+                    {%if l['tulos'] >4000%}
+                    <td class="tulos">poikkeava</td>
+                    {%else%}
+                    <td class="tulos">normaali</td>
+                    {%endif%}
+                    <!--Tarkistetaan, onko arvo kuitattu. Jos kuittaus tapauhtunut, muodostuu vihreä pallo-->
+                    {%if l['kuitattu']==1%}
+                    <td><svg width="15" height="15">
+                            <circle class="kuitattu" cx="7" cy="7" r=6></circle>
+                        </svg></td>
+                    {%else%}
+                    <td></td>
+                    {%endif%}
+                </tr>
+                {%endif%}
+                {%endfor%}
+                {%endif%}
+
+
+                <!--Ilmanpaine-->
+                <!--Määritellään sanallisesti, onko todettu ilmanpaineen arvo poikkeava vai normaali-->
+                {%if(t=='Ilmanpaine')%}
+                {%for l in laakehuone%}
+                {%if l['olosuhde']=='ilmanpaine'%}
+                <tr>
+                    <td>{{l['aika'].strftime("%H:%M")}}</td>
+                    {%if l['tulos']>1028%}
+                    <td class="tulos">poikkeava</td>
+                    {%elif l['tulos']<1013 %}
+                    <td class="tulos">poikkeava</td>
+                    {%else%}
+                    <td class="tulos">normaali</td>
+                    {%endif%}
+                    <!--Tarkistetaan, onko arvo kuitattu. Jos kuittaus tapauhtunut, muodostuu vihreä pallo-->
+                    {%if l['kuitattu']==1%}
+                    <td><svg width="15" height="15">
+                            <circle class="kuitattu" cx="7" cy="7" r=6></circle>
+                        </svg></td>
+                    {%else%}
+                    <td>    </td>
+                    {%endif%}
+                </tr>
+                {%endif%}
+                {%endfor%}
+                {%endif%}
+            </tbody>
+        </table>
+    {%endfor%}
+    </div>
+{% endblock %}

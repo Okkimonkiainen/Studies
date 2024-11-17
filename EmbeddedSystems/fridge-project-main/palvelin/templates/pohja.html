@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fi" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi">
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="{{ url_for('static', filename='tyylit.css') }}"/>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{% endblock %} </title>
+</head>
+<!--Pohja.html toimii lääkehuoneen alueisiin liittyvien sivujen pohjana-->
+<body>
+    <div id="halytysdiv" class="halytys">
+        <!--Tänne luodaan javascriptin avulla oma "ponnahdusikkuna"-->
+    </div>
+
+  <!--Uloskirjautuminen, painonapit ja yleiskatsauspallo, kaikille lääkehuoneen alueisiin liittyville sivuille:-->
+  <!--Logout- ja Haku-painonapit:-->
+  <div class="ylanavi" id="logout">
+    <!--
+      Hakukuvake tehty Bootstrapin avulla: https://github.com/twbs/icons/blob/main/icons/search.svg?short_path=d3dc7ca
+      Bootstrap hakukuvake: https://icons.getbootstrap.com/icons/search/
+      Bootstrap MIT-lisenssi: https://github.com/twbs/bootstrap/blob/main/LICENSE
+    -->
+          <div><a href="{{'haku'}}"><button class="navibtn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+          </svg>  HAKU</button></a></div>
+          
+          
+        <h3><a href="{{'logout'}}"><button class="navibtn"> LOGOUT </button></a></h3></div>
+    <div id="paasivu">
+        <!--Lääkehuoneen alueiden-painonapit: Avohyllyt eli lääkehuone ja jääkaappi-->
+      <div id="solmut">
+        <div class="ekatnapit">
+        <a href="{{'laakehuone'}}"><button id="{{'laakehuone'}}" class="pohjabtn">
+          Lääkehuone</button></a> <!--onClick="painonappi()" type="button"-->
+          <a href="{{'jaakaappi'}}"><button id="{{'jaakaappi'}}" class="pohjabtn">Jääkaappi</button></a>
+        </div>
+        <!--Avohyllyihin liittyvä yleiskatsauspallo ja sen sisällön määrittely: -->
+        <div id="pallokuva">
+          <svg width="200" height="200">
+              <circle cx="100" cy="100" r="100" />
+              {% if session['lampotila'] is defined %}
+                <text x="16%" y="30%">Lämpötila: {{session['lampotila']}} °C</text>
+              {%else%}
+                <text x="12%" y="30%">Lämpötila: ei arvoa</text>
+              {%endif%}
+              {%if session['kosteus'] is defined%}
+                <text x="12%" y="45%">Ilmankosteus: {{session['kosteus']}} %</text>
+              {%else%}
+                <text x="6%" y="45%">Ilmankosteus: ei arvoa</text>
+              {%endif%}
+              {% if session['ilmanpaine'] is defined %}
+                {% if session['ilmanpaine']>1028%} %}
+                    <text x="6%" y="60%">Ilmanpaine: poikkeava</text>
+                {% elif session['ilmanpaine']<1013%}
+                    <text x="6%" y="60%">Ilmanpaine: poikkeava</text>
+                {%else%}
+                    <text x="8%" y="60%">Ilmanpaine: normaali</text>
+                {%endif%}
+              {%else%}
+                    <text x="9%" y="60%">Ilmanpaine: ei arvoa</text>
+              {%endif%}
+              {% if session['valo'] is defined %}
+                {% if session['valo']>= 4000 %}
+                    <text x="9%" y="75%">Valoisuus: poikkeava</text>
+                {%else%}
+                    <text x="11%" y="75%">Valoisuus: normaali</text>
+                {%endif%}
+              {%else%}
+                    <text x="13%" y="75%">Valoisuus: ei arvoa</text>
+              {%endif%}
+            </svg>
+          </div>
+          <!--Lääkehuoneen alueiden-painonapit: infuusionestekaappi ja ovellinen lääkekaappi-->
+            <div class="loputnapit">
+            <a href="{{'infuusionestekaappi'}}"><button id="{{'infuusionestekaappi'}}" class="pohjabtn">Infuusionestekaappi</button></a>
+            <a href="{{'ovellinenlaakekaappi'}}"><button id="{{'ovellinenlaakekaappi'}}" class="pohjabtn">Ovellinen lääkekaappi</button></a>
+          </div>
+          </div>
+    {% block content %}{% endblock %}
+  </body>
+</html>

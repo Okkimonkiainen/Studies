@@ -1,0 +1,586 @@
+/*Kaikilla sivuilla sama tausta:*/
+body{
+    height: 100%;
+    background:linear-gradient(rgb(160, 233, 251), rgb(50, 131, 140)) fixed no-repeat;
+}
+
+
+/*HÄLYTYS JA KUITTAUS:*/
+/*vihreä SVG-pallo, joka ilmestyy taulukoiden sisälle, kun arvo on kuitattu*/
+.kuitattu{
+    fill: #98FB98;
+    stroke: #98FB98;
+}
+
+
+/*Hälytys-ponnahdusikkuna*/
+.halytys{
+    display:none;
+}
+.halytysAktivoitu{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    background-color:rgb(160, 233, 251);
+    border: 1px solid rgb(1, 117, 194);
+    border-radius:20px;
+    box-shadow: 0 0 15px 4px rgb(13, 190, 254);
+    position:sticky;
+    top:0;
+}
+/*Hälytys-ponnahdusikkunan kuittaus-btn*/
+.kuittaus{
+    margin-bottom:2em;
+}
+#kuittaus{
+    display:flex;
+    justify-content:center;
+    width:fit-content;
+    margin-bottom: 2em;
+    font-weight:bold;
+}
+
+
+
+/*KIRJAUTUMISSIVU*/
+#kirjautuminen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#kirjautuminen h1{
+    color:black;
+}
+
+#kirjlomake{
+    background-color: white;
+    width: 20em;
+    border: 1px solid darkblue;
+    box-shadow: 0 0 15px 4px rgb(67, 173, 185);
+}
+#kirjlomake p{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+#kirjlomake input[type=text], input[type=password]{
+    float: right;
+}
+
+#painike{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+
+/*Kirjautumislomakkeen virheilmoitukset*/
+.virhe{
+    text-align: center;
+    color: red;
+    margin-bottom: 1em;
+}
+
+
+/*ULOS KIRJAUTUMINEN*/
+#logout{
+    float: right;
+}
+
+/*HAKU SIVU:*/
+#haku{
+    display:flex;
+    flex-direction:column;
+}
+/*Ylänavi:logout- ja pääsivu-painonapit*/
+#ylanavi{
+    display:flex;
+    flex-direction:column;
+    align-items:end;
+}
+#ylanavi a{
+    margin-bottom:1em;
+}
+/*Hakulomakkeen asettelu: */
+#hakudiv{
+    margin-top:2em;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+#hakudiv h3{
+    padding-bottom:1em;
+    text-align:center;
+}
+#hakudiv form{
+    background-color: white;
+    width: 20em;
+    border: 1px solid darkblue;
+    box-shadow: 0 0 15px 4px rgb(67, 173, 185);
+}
+#hakudiv label{
+    margin-right:1em;
+    margin-left:1em;
+    display:flex;
+    justify-content:space-between;
+}
+#hakudiv fieldset{
+    border:none;
+}
+#hakudiv legend{
+    font-weight:bold;
+}
+#hakupainike{
+    text-align:center;
+}
+/*Haku painonapin alapuolelle tyhjää tilaa:*/
+.tyhja{
+    padding-bottom:10px;
+}
+
+
+
+/*LÄÄKEHUONEEN ALUEIDEN YHTEISET ASETTELUT: */
+#paasivu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Haku- ja logout-painonapit*/
+.ylanavi button{
+    height:2em;
+    width:6em;
+}
+/*Avohyllyt/lääkehuone, Jääkaappi, Infuusionestekaappi ja Ovellinen lääkekaappi -painonappien asettelu:*/
+#solmut{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1em;
+
+
+}
+#solmut button{
+    margin: 1em;
+    height: 3em;
+    width: 11em;
+}
+/*Lääkehuoneen yleiskatsaus-pallo:*/
+svg circle{
+    fill: rgb(0, 139, 190);
+    stroke: rgb(247, 224, 146);
+    stroke-width: 1;
+}
+svg text{
+    float: left;
+    fill:  rgb(247, 224, 146);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*Lääkehuoneen alueiden sensorimittaustaulukoiden asettelut:*/
+.taulukko{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+
+
+/*KAIKKIEN TAULUKOIDEN OMINAISUUDET: */
+table{
+    margin-top:4em;
+    width: 15em;
+    border: 1px solid rgb(1, 117, 194);
+    border-collapse:separate;
+    border-radius:20px;
+    box-shadow: 0 0 15px 4px rgb(13, 190, 254);
+    background-color: rgb(0, 139, 190);
+    margin-right: 0.5em;
+}
+
+
+table th{
+    padding-top: 2em;
+    color:rgb(247, 224, 146);
+}
+/*Taulukoissa tapahtuvaan vieritykseen liittyviä asetuksia ja muita yleisasetuksia: */
+.fixed{
+    table-layout: fixed;
+}
+
+.fixed tbody{
+    display:block;
+    width:100%;
+    overflow-y:auto;
+    height:200px;
+}
+.fixed thead tr{
+    display:block;
+}
+
+.fixed td{
+    color: aliceblue;
+    padding-bottom:0.5em;
+    text-align:center;
+    width:80px;
+}
+
+/*Tulosten asettelu taulukkoon*/
+.fixed .tulos{
+    width:55px;
+}
+/*Pallojen asettelu taulukkoon*/
+.fixed .pallokuit{
+    float:right;
+}
+
+.fixed th{
+    width:200px;
+    padding-left:1em;
+    padding-bottom:0em;
+    text-align:center;
+
+}
+
+
+
+
+
+/*TAULUKOIDEN SKROLLIN ASETUKSET: ei näy firefoxilla: */
+/* Skrollin leveys: */
+table ::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+/* Skrollin kulkema rata */
+table ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #007791;
+  border-radius: 10px;
+  margin-bottom:5px;
+}
+
+/* Skrollin ulkonäkö */
+table ::-webkit-scrollbar-thumb {
+  background: #0CAFFF;
+  border-radius: 10px;
+}
+
+/* Skrolli, kun hiiri yläpuolella */
+table ::-webkit-scrollbar-thumb:hover {
+  background: #034694;
+}
+
+
+
+
+
+/*Kaikkien painonappien yleisasetus: */
+button{
+    background-color: #318CE7;
+    border-color:#318CE7;
+    border-radius: 8px;
+    color: white;
+}
+
+
+/*Painonappin värinvaihto, kun valitty tietty solmu eli lääkehuoneen alue: */
+.varinvaihto{
+    background-color:#00BFFF;
+    border-color:rgb(247, 224, 146);
+}
+
+
+/*HAKUTULOKSET*/
+#tulokset .ylanavi{
+    float:right;
+    margin-left:2em;
+}
+/*taulukko*/
+#tulokset table{
+    width: 30em;
+}
+/*Taulukon yleisasetukset ja vieritykseen liittyviä asetuksia: */
+.fixedHaku{
+    table-layout: fixed;
+}
+.fixed th{
+    width:18.75em;
+}
+.sensoriHaku th{
+    width:28em;
+}
+.otsikkoHaku th{
+    width:12.5em;
+}
+.fixedHaku tbody{
+    display:block;
+    width:100%;
+    overflow-y:auto;
+    height:200px;
+}
+.fixedHaku thead tr{
+    display:block;
+}
+
+
+.fixedHaku td{
+    color: aliceblue;
+    padding-bottom:0.5em;
+    text-align:center;
+    width:5.1em;
+}
+.fixedHaku td:nth-of-type(n+3){
+    padding-left:0.7em;
+}
+
+
+
+#hakutuloksetdiv{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+
+#tulokset h3{
+    text-align:center;
+}
+/*Logout ja haku-painonapit*/
+#tuloksetHBtn{
+    margin-bottom:1em;
+}
+
+
+
+
+/*SKAALAUTUVUUS:*/
+@media all and (max-width:505px){
+    #solmut{
+        width: 50%;
+    }
+}
+@media all and (max-width:1000px){
+    #solmut button{
+        margin: 0.5em;
+        height: 3em;
+        width: 11em;
+    }
+}
+
+@media all and (max-width:950px){ /*ennen 892px*/
+
+    /*Määritellään solmut-divin elementtien järjestys uudelleen:*/
+   #solmut{
+    display: grid;
+    grid-template-columns: [alku] 21em [keski] 0em [loppu] 21em;
+    grid-template-rows: [alkurivi] 11em [tokarivi] 5em;
+    justify-items: center;
+   }
+   #pallokuva{
+    grid-column-start: 2;
+    grid-row-start: 1;
+   }
+   .ekatnapit{
+    grid-column-start: 1;
+    grid-row-start: 2;
+   }
+   .loputnapit{
+    grid-column-start: 3;
+    grid-row-start: 2;
+   }
+   #solmut button{
+    margin: 0.1em;
+   }
+
+   /*Taulukot paikalleen*/
+   .taulukko{
+    display: flex;
+    flex-direction: column;
+    width:  15em;
+   }
+}
+
+
+@media all and (max-width:712px){
+	/*Kirjautumislomakkeen määritys*/
+	#kirjlomake{
+        display: flex;
+        flex-direction: column;
+    }
+    #kirjlomake input[type=text], input[type=password]{
+        float: left;
+        width: 250px;
+    }
+    /*Määritellään solmut-divin elementtien järjestys uudelleen:*/
+   #solmut{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   #pallokuva{
+    order: 1;
+   }
+   .ekatnapit{
+    order: 2;
+   }
+   .loputnapit{
+    order: 3;
+   }
+   #solmut button{
+    margin: 0.2em;
+    width: 200px;
+   }
+   /*Yleiskatsauspallon tekstien asettelu:*/
+   svg text{
+       font-size:17px;
+}
+/*Painonappien asettelu: */
+    .ylanavi button{
+    width:85px;
+}
+
+
+   /*Taulukot paikalleen*/
+   .taulukko{
+    display: flex;
+    flex-direction: column;
+    width: 0%;
+    align-items: center;
+   }
+
+}
+
+
+@media all and (max-width:600px){
+    /*Yleiskatsauspallon tekstien asettelu: */
+    svg text{
+       font-size:15.9px;
+}
+
+    /*Hakutulokset taulukon asettelut: */
+    #tulokset table{
+        margin-left:0em;
+        width:22em;
+    }
+    .ylanavi button{
+    width:85px;
+}
+
+.sensoriHaku th{
+    width:22em;
+}
+.otsikkoHaku th{
+    width:3.7em;
+}
+
+.fixedHaku td{
+    width:3.1em;
+}
+.fixedHaku td:nth-of-type(n+3){
+    padding-left:0px;
+}
+.fixedHaku td:last-of-type{
+    padding-left:16px;
+}
+#tulokset table td{
+        font-size:15px;
+    }
+
+
+}
+@media all and (max-width:550px){
+    /*Hakutulokset taulukon asettelut: */
+    .otsikkoHaku th{
+    width:4.05em;
+}
+    #tulokset table th{
+        font-size:15px;
+        padding-left:10px;
+    }
+    #tulokset table td{
+        font-size:15.5px;
+    }
+    .fixedHaku td:nth-of-type(n+2){
+    padding-left:3.2px;
+    }
+    .fixedHaku td:last-of-type{
+    padding-left:12.8px;
+    }
+
+}
+
+
+
+
+@media all and (max-width:400px){
+    /*Hakutulokset taulukon asettelut: */
+    #tulokset table th{
+        font-size:14px;
+        padding-left:0.4em;
+    }
+    #tulokset table td{
+        font-size:14.5px;
+    }
+    .fixedHaku td:first-of-type{
+    font-size:10px;
+    }
+    .fixedHaku td:nth-of-type(n+2){
+    padding-left:3.2px;
+    }
+    .fixedHaku td:last-of-type{
+    padding-left:16px;
+    }
+
+}
+
+
+
+
+@media all and (max-width:390px){
+    /*Kirjautuminen:*/
+    #kirjautuminen h1{
+        text-align: center;
+    }
+    /*Lääkehuoneen alue-sivujen asettelut: */
+    #pallokuva{
+        margin-bottom: 1em;
+    }
+
+    .taulukko{
+        display: flex;
+        flex-direction: column;
+        width: 55%;
+        float: left;
+    }
+    /*Yleiskatsauspallon asettelut: */
+    svg text{
+        fill:rgb(247, 224, 146);
+        font-size:15.5px;
+    }
+    /*Hakutulokset taulukon asettelut: */
+    #tulokset table{
+        margin-left:8em;
+        width:22em;
+    }
+    #tulokset table th{
+        padding-left:0.3em;
+    }
+    #tulokset table td{
+        font-size:14px;
+        padding-left:4px;
+    }
+    .fixedHaku td:nth-of-type(n+2){
+    padding-left:3.2px;
+    }
+    .fixedHaku td:last-of-type{
+    padding-left:14px;
+    }
+
+
+}

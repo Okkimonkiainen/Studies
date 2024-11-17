@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fi" xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="StyleSheet" href="{{ url_for('static', filename='tyylit.css') }}" type="text/css" />
+<title>Kirjaudu sisään</title>
+</head>
+<!--Sovellukseen kirjautuminen, lomakkeen avulla:-->
+<body id="kirjautuminen">
+        <h1>Kirjaudu sovellukseen</h1>
+  <div>
+        <form action="{{request.base_url}}" method="POST" id="kirjlomake">
+        {{ form.csrf_token }}
+        <p>
+        <label>Käyttäjätunnus
+        {{form.kayttajatunnus}}
+        </label>
+        </p>
+        <p>
+        <label>Salasana
+        {{form.salasana}}
+        </label>
+        </p>
+        <div id="painike">
+        <input type="submit" name="laheta" value="Kirjaudu sisään" />
+        </div>
+        <div class="virhe">
+            <!--Lomakkeelle ilmestyvät virheilmoitukset:-->
+            {%if form.kayttajatunnus.errors|length>0 and form.salasana.errors|length>0 %}
+                {% for error in form.kayttajatunnus.errors %}
+                <span>{{ error|e }} ja</span>
+                {% endfor %}
+                {% for error in form.salasana.errors %}
+                {%set sana=error.split(' ')%}
+                <span>{{ sana[sana|length-1]|e }}</span>
+                {% endfor %}
+            {%else%}
+                {% for error in form.kayttajatunnus.errors %}
+                <span>{{ error|e }}</span>
+                {% endfor %}
+                {% for error in form.salasana.errors %}
+                <span>{{ error|e }}</span>
+                {% endfor %}
+            {%endif%}
+            {%if virhe is sameas true%}
+                <span>Käyttäjätunnus tai salasana on väärin</span>
+            {%endif%}
+        </div>
+
+        </form>
+    </div>
+</body>
+
+</html>

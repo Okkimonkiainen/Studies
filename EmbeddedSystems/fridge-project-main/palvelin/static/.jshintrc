@@ -1,0 +1,21 @@
+{
+        "curly": true,
+        "asi": false,
+        "esversion": 11,
+        "funcscope": true,
+        "validthis": true,
+        "devel": true,
+        "browser": true,
+        "strict": "global",
+        "moz": true,
+        "node": true,
+        "sub": true,
+	"varstmt": true,
+        "globals": {
+           "HTMLInspector": true,
+           "data": true,
+           "log": true           
+        }
+}
+
+
