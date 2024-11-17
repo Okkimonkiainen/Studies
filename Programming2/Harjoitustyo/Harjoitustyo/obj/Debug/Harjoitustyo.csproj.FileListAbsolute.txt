@@ -1,0 +1,152 @@
+C:\Users\Omistaja\Desktop\Harjoitus\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe.config
+C:\Users\Omistaja\Desktop\Harjoitus\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe
+C:\Users\Omistaja\Desktop\Harjoitus\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.pdb
+C:\Users\Omistaja\Desktop\Harjoitus\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csprojAssemblyReference.cache
+C:\Users\Omistaja\Desktop\Harjoitus\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.Properties.Resources.resources
+C:\Users\Omistaja\Desktop\Harjoitus\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csproj.GenerateResource.cache
+C:\Users\Omistaja\Desktop\Harjoitus\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.exe
+C:\Users\Omistaja\Desktop\Harjoitus\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.pdb
+C:\Users\Omistaja\Desktop\Harjoitus\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.CompanyPersonnelData.resources
+C:\Users\Omistaja\Desktop\Harjoitus\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.Edit.resources
+C:\Users\Omistaja\Desktop\Harjoitus\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.ChoosePerson.resources
+C:\Users\sipaa\Downloads\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe.config
+C:\Users\sipaa\Downloads\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe
+C:\Users\sipaa\Downloads\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.pdb
+C:\Users\sipaa\Downloads\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csprojAssemblyReference.cache
+C:\Users\sipaa\Downloads\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.ChoosePerson.resources
+C:\Users\sipaa\Downloads\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.Edit.resources
+C:\Users\sipaa\Downloads\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.CompanyPersonnelData.resources
+C:\Users\sipaa\Downloads\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.Properties.Resources.resources
+C:\Users\sipaa\Downloads\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csproj.GenerateResource.cache
+C:\Users\sipaa\Downloads\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.exe
+C:\Users\sipaa\Downloads\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.pdb
+C:\Users\sipaa\source\repos\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe.config
+C:\Users\sipaa\source\repos\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe
+C:\Users\sipaa\source\repos\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.pdb
+C:\Users\sipaa\source\repos\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csprojAssemblyReference.cache
+C:\Users\sipaa\source\repos\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.ChoosePerson.resources
+C:\Users\sipaa\source\repos\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.CompanyPersonnelData.resources
+C:\Users\sipaa\source\repos\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.Properties.Resources.resources
+C:\Users\sipaa\source\repos\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csproj.GenerateResource.cache
+C:\Users\sipaa\source\repos\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.exe
+C:\Users\sipaa\source\repos\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.pdb
+C:\Users\Omistaja\Desktop\Harjoitus\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csprojAssemblyReference.cache
+C:\Users\Omistaja\Desktop\Harjoitus\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.ChoosePerson.resources
+C:\Users\Omistaja\Desktop\Harjoitus\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.CompanyPersonnelData.resources
+C:\Users\Omistaja\Desktop\Harjoitus\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.Properties.Resources.resources
+C:\Users\Omistaja\Desktop\Harjoitus\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csproj.GenerateResource.cache
+C:\Users\Omistaja\Desktop\Harjoitus\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.exe
+C:\Users\Omistaja\Desktop\Harjoitus\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.pdb
+C:\Users\Omistaja\Desktop\Harjoitus\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe.config
+C:\Users\Omistaja\Desktop\Harjoitus\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe
+C:\Users\Omistaja\Desktop\Harjoitus\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.pdb
+C:\Users\sipaa\Downloads\Harjoitustyo_ver2.1 (1)\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe.config
+C:\Users\sipaa\Downloads\Harjoitustyo_ver2.1 (1)\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe
+C:\Users\sipaa\Downloads\Harjoitustyo_ver2.1 (1)\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.pdb
+C:\Users\sipaa\Downloads\Harjoitustyo_ver2.1 (1)\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csprojAssemblyReference.cache
+C:\Users\sipaa\Downloads\Harjoitustyo_ver2.1 (1)\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.ChoosePerson.resources
+C:\Users\sipaa\Downloads\Harjoitustyo_ver2.1 (1)\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.CompanyPersonnelData.resources
+C:\Users\sipaa\Downloads\Harjoitustyo_ver2.1 (1)\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.Properties.Resources.resources
+C:\Users\sipaa\Downloads\Harjoitustyo_ver2.1 (1)\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csproj.GenerateResource.cache
+C:\Users\sipaa\Downloads\Harjoitustyo_ver2.1 (1)\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.exe
+C:\Users\sipaa\Downloads\Harjoitustyo_ver2.1 (1)\Harjoitustyo_ver2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.pdb
+C:\Users\Omistaja\Desktop\Harjoitus\Uusi_Ver1\Harjoitustyo (1)\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe.config
+C:\Users\Omistaja\Desktop\Harjoitus\Uusi_Ver1\Harjoitustyo (1)\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe
+C:\Users\Omistaja\Desktop\Harjoitus\Uusi_Ver1\Harjoitustyo (1)\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.pdb
+C:\Users\Omistaja\Desktop\Harjoitus\Uusi_Ver1\Harjoitustyo (1)\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csprojAssemblyReference.cache
+C:\Users\Omistaja\Desktop\Harjoitus\Uusi_Ver1\Harjoitustyo (1)\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.CompanyPersonnelData.resources
+C:\Users\Omistaja\Desktop\Harjoitus\Uusi_Ver1\Harjoitustyo (1)\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.Properties.Resources.resources
+C:\Users\Omistaja\Desktop\Harjoitus\Uusi_Ver1\Harjoitustyo (1)\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csproj.GenerateResource.cache
+C:\Users\Omistaja\Desktop\Harjoitus\Uusi_Ver1\Harjoitustyo (1)\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.exe
+C:\Users\Omistaja\Desktop\Harjoitus\Uusi_Ver1\Harjoitustyo (1)\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.pdb
+C:\Users\Omistaja\Desktop\Harjoitus\Uusi_Ver1\Harjoitustyo (1)\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.EmployeeData.resources
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe.config
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.pdb
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csprojAssemblyReference.cache
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.CompanyPersonnelData.resources
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.EmployeeData.resources
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.Properties.Resources.resources
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csproj.GenerateResource.cache
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.exe
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.pdb
+C:\Users\Omistaja\Desktop\HarjoitustyoKorjaus2\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe.config
+C:\Users\Omistaja\Desktop\HarjoitustyoKorjaus2\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe
+C:\Users\Omistaja\Desktop\HarjoitustyoKorjaus2\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.pdb
+C:\Users\Omistaja\Desktop\HarjoitustyoKorjaus2\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csprojAssemblyReference.cache
+C:\Users\Omistaja\Desktop\HarjoitustyoKorjaus2\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.CompanyPersonnelData.resources
+C:\Users\Omistaja\Desktop\HarjoitustyoKorjaus2\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.EmployeeData.resources
+C:\Users\Omistaja\Desktop\HarjoitustyoKorjaus2\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.Properties.Resources.resources
+C:\Users\Omistaja\Desktop\HarjoitustyoKorjaus2\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csproj.GenerateResource.cache
+C:\Users\Omistaja\Desktop\HarjoitustyoKorjaus2\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.exe
+C:\Users\Omistaja\Desktop\HarjoitustyoKorjaus2\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.pdb
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus3\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe.config
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus3\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus3\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.pdb
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus3\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csprojAssemblyReference.cache
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus3\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.CompanyPersonnelData.resources
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus3\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.EmployeeData.resources
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus3\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.Properties.Resources.resources
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus3\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csproj.GenerateResource.cache
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus3\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.exe
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus3\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.pdb
+C:\Users\Omistaja\Desktop\HARKKAuusi\HarjoitustyoKorjaus3\HarjoitustyoKorjaus3\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe.config
+C:\Users\Omistaja\Desktop\HARKKAuusi\HarjoitustyoKorjaus3\HarjoitustyoKorjaus3\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe
+C:\Users\Omistaja\Desktop\HARKKAuusi\HarjoitustyoKorjaus3\HarjoitustyoKorjaus3\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.pdb
+C:\Users\Omistaja\Desktop\HARKKAuusi\HarjoitustyoKorjaus3\HarjoitustyoKorjaus3\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csprojAssemblyReference.cache
+C:\Users\Omistaja\Desktop\HARKKAuusi\HarjoitustyoKorjaus3\HarjoitustyoKorjaus3\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.CompanyPersonnelData.resources
+C:\Users\Omistaja\Desktop\HARKKAuusi\HarjoitustyoKorjaus3\HarjoitustyoKorjaus3\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.EmployeeData.resources
+C:\Users\Omistaja\Desktop\HARKKAuusi\HarjoitustyoKorjaus3\HarjoitustyoKorjaus3\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.Properties.Resources.resources
+C:\Users\Omistaja\Desktop\HARKKAuusi\HarjoitustyoKorjaus3\HarjoitustyoKorjaus3\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csproj.GenerateResource.cache
+C:\Users\Omistaja\Desktop\HARKKAuusi\HarjoitustyoKorjaus3\HarjoitustyoKorjaus3\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.exe
+C:\Users\Omistaja\Desktop\HARKKAuusi\HarjoitustyoKorjaus3\HarjoitustyoKorjaus3\HarjoitustyoKorjaus2\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.pdb
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe.config
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.pdb
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csprojAssemblyReference.cache
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.CompanyPersonnelData.resources
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.EmployeeData.resources
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.Properties.Resources.resources
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csproj.GenerateResource.cache
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.exe
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.pdb
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe.config
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.pdb
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csprojAssemblyReference.cache
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.CompanyPersonnelData.resources
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.EmployeeData.resources
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.Properties.Resources.resources
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csproj.GenerateResource.cache
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.exe
+C:\Users\sipaa\Downloads\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.pdb
+C:\Users\Omistaja\Desktop\UUSIHarkkatyo\UUSIN10.12\HarjoitustyoKorjaus4 (1)\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe.config
+C:\Users\Omistaja\Desktop\UUSIHarkkatyo\UUSIN10.12\HarjoitustyoKorjaus4 (1)\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe
+C:\Users\Omistaja\Desktop\UUSIHarkkatyo\UUSIN10.12\HarjoitustyoKorjaus4 (1)\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.pdb
+C:\Users\Omistaja\Desktop\UUSIHarkkatyo\UUSIN10.12\HarjoitustyoKorjaus4 (1)\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csprojAssemblyReference.cache
+C:\Users\Omistaja\Desktop\UUSIHarkkatyo\UUSIN10.12\HarjoitustyoKorjaus4 (1)\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.CompanyPersonnelData.resources
+C:\Users\Omistaja\Desktop\UUSIHarkkatyo\UUSIN10.12\HarjoitustyoKorjaus4 (1)\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.EmployeeData.resources
+C:\Users\Omistaja\Desktop\UUSIHarkkatyo\UUSIN10.12\HarjoitustyoKorjaus4 (1)\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.Properties.Resources.resources
+C:\Users\Omistaja\Desktop\UUSIHarkkatyo\UUSIN10.12\HarjoitustyoKorjaus4 (1)\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csproj.GenerateResource.cache
+C:\Users\Omistaja\Desktop\UUSIHarkkatyo\UUSIN10.12\HarjoitustyoKorjaus4 (1)\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.exe
+C:\Users\Omistaja\Desktop\UUSIHarkkatyo\UUSIN10.12\HarjoitustyoKorjaus4 (1)\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.pdb
+C:\Users\sipaa\Downloads\UUSIN10.12\UUSIN10.12\HarjoitustyoKorjaus4 (1)\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe.config
+C:\Users\sipaa\Downloads\UUSIN10.12\UUSIN10.12\HarjoitustyoKorjaus4 (1)\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe
+C:\Users\sipaa\Downloads\UUSIN10.12\UUSIN10.12\HarjoitustyoKorjaus4 (1)\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.pdb
+C:\Users\sipaa\Downloads\UUSIN10.12\UUSIN10.12\HarjoitustyoKorjaus4 (1)\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csprojAssemblyReference.cache
+C:\Users\sipaa\Downloads\UUSIN10.12\UUSIN10.12\HarjoitustyoKorjaus4 (1)\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.CompanyPersonnelData.resources
+C:\Users\sipaa\Downloads\UUSIN10.12\UUSIN10.12\HarjoitustyoKorjaus4 (1)\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.EmployeeData.resources
+C:\Users\sipaa\Downloads\UUSIN10.12\UUSIN10.12\HarjoitustyoKorjaus4 (1)\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.Properties.Resources.resources
+C:\Users\sipaa\Downloads\UUSIN10.12\UUSIN10.12\HarjoitustyoKorjaus4 (1)\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csproj.GenerateResource.cache
+C:\Users\sipaa\Downloads\UUSIN10.12\UUSIN10.12\HarjoitustyoKorjaus4 (1)\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.exe
+C:\Users\sipaa\Downloads\UUSIN10.12\UUSIN10.12\HarjoitustyoKorjaus4 (1)\HarjoitustyoKorjaus4\HarjoitustyoKorjaus4\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.pdb
+C:\Users\Omistaja\Desktop\Viimeistely\HarjoitustyoValmis\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe.config
+C:\Users\Omistaja\Desktop\Viimeistely\HarjoitustyoValmis\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.exe
+C:\Users\Omistaja\Desktop\Viimeistely\HarjoitustyoValmis\Harjoitustyo\Harjoitustyo\bin\Debug\Harjoitustyo.pdb
+C:\Users\Omistaja\Desktop\Viimeistely\HarjoitustyoValmis\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csprojAssemblyReference.cache
+C:\Users\Omistaja\Desktop\Viimeistely\HarjoitustyoValmis\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.CompanyPersonnelData.resources
+C:\Users\Omistaja\Desktop\Viimeistely\HarjoitustyoValmis\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.EmployeeData.resources
+C:\Users\Omistaja\Desktop\Viimeistely\HarjoitustyoValmis\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.Properties.Resources.resources
+C:\Users\Omistaja\Desktop\Viimeistely\HarjoitustyoValmis\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.csproj.GenerateResource.cache
+C:\Users\Omistaja\Desktop\Viimeistely\HarjoitustyoValmis\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.exe
+C:\Users\Omistaja\Desktop\Viimeistely\HarjoitustyoValmis\Harjoitustyo\Harjoitustyo\obj\Debug\Harjoitustyo.pdb
