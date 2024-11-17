@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblPituus" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPaino" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblNimi" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblIka" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="txtPituus" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtIka" alignment="0" max="32767" attributes="0"/>
+                          <Component id="txtNimi" alignment="0" pref="85" max="32767" attributes="0"/>
+                          <Component id="txtPaino" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="lblKayttaja" min="-2" pref="67" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblLaji" min="-2" pref="37" max="-2" attributes="0"/>
+                  <Component id="cmbLaji" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+          </Group>
+          <Component id="jSeparator1" alignment="0" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="lstPaivakirja" min="-2" pref="514" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="btnTulosta" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="169" max="-2" attributes="0"/>
+                              <Component id="btnMuokkaa" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="btnPoista" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblHaku" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                              <Component id="cmbHaku" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnHae" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="265" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblPaikka" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblPvm" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblKesto" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="txtPaikka" alignment="1" min="-2" pref="84" max="-2" attributes="0"/>
+                                  <Component id="txtPvm" alignment="1" min="-2" pref="84" max="-2" attributes="0"/>
+                                  <Component id="txtKesto" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="lblPaikkaAika" alignment="0" min="-2" pref="97" max="-2" attributes="0"/>
+                          <Component id="btnTallenna" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="13" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblKayttaja" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblPaikkaAika" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblLaji" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtPaikka" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblPaikka" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtNimi" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblNimi" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cmbLaji" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtPvm" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblPvm" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtIka" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblIka" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblKesto" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtKesto" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblPituus" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtPituus" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtPaino" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblPaino" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Component id="btnTallenna" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnTulosta" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnPoista" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnMuokkaa" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lstPaivakirja" pref="127" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="lblHaku" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="cmbHaku" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btnHae" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblKayttaja">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="K&#xe4;ytt&#xe4;j&#xe4;"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Default Cursor"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblNimi">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nimi"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblIka">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ik&#xe4;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPituus">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pituus"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPaino">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Paino"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPaikkaAika">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Paikka ja aika"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Default Cursor"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPaikka">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Paikka"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPvm">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="P&#xe4;iv&#xe4;m&#xe4;&#xe4;r&#xe4;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblLaji">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Laji"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Default Cursor"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbLaji">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="9">
+            <StringItem index="0" value="Jalkapallo"/>
+            <StringItem index="1" value="Juoksu"/>
+            <StringItem index="2" value="Koripallo"/>
+            <StringItem index="3" value="K&#xe4;vely"/>
+            <StringItem index="4" value="Py&#xf6;r&#xe4;ily"/>
+            <StringItem index="5" value="Sulkapallo"/>
+            <StringItem index="6" value="Tennis"/>
+            <StringItem index="7" value="Uinti"/>
+            <StringItem index="8" value="Muu"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblKesto">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kesto"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNimi">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtIka">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPituus">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPaino">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPaikka">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPvm">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtKesto">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnTallenna">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tallenna"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnTallennaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator1">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnPoista">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Poista"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPoistaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnTulosta">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="Tulosta"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnTulostaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.List" name="lstPaivakirja">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnMuokkaa">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Muokkaa"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMuokkaaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblHaku">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Hae suorituksia lajin mukaan"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder/>
+          </Border>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="cmbHaku">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="9">
+            <StringItem index="0" value="Jalkapallo"/>
+            <StringItem index="1" value="Juoksu"/>
+            <StringItem index="2" value="Koripallo"/>
+            <StringItem index="3" value="K&#xe4;vely"/>
+            <StringItem index="4" value="Py&#xf6;r&#xe4;ily"/>
+            <StringItem index="5" value="Sulkapallo"/>
+            <StringItem index="6" value="Tennis"/>
+            <StringItem index="7" value="Uinti"/>
+            <StringItem index="8" value="Muu"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnHae">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hae"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnHaeActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
