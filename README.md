@@ -13,6 +13,8 @@ Jokaiselle tehtävälle on tehty PowerPoint-esitys. Kurssi suoritettiin englanni
 Loppuprojektissa käytettiin:
 - Python, tensorflow
 - Kaggle
+Projektissa tehtiin malli, joka luokittelee kudosnäytteet joko syöpäkudokseksi tai normaaliksi kudokseksi (binääriluokittelu).
+Suurien tiedostokokojen takia, projekti on katsottavissa [GitLabissa](https://gitlab.jyu.fi/tuomtryu/loppuprojekti_ties4141)
 
 ## 3. Embedded systems: Sulautetut järjestelmät -loppuprojekti
 Loppuprojektissa käytettiin:
@@ -22,6 +24,12 @@ Loppuprojektissa käytettiin:
 - SQL
 - PythonAnywhere
 - Gmail
+Projektissa tehtiin järjestelmä, jonka avulla lääkehuoneen tilan olosuhteita voidaan valvoa. Huoneeseen sijoitetaan neljä ESP32-alustaa (4 solmua), joista yksi kerää kaikilta solmuilta saadut tiedot ja
+lähettää ne eteenpäin PythonAnywheressä olleelle web-palvelimelle. Sensoreista kerätty data tallennettiin PythonAnywheressä sijaitsevaan tietokantaan. Projektissa tehtiin käyttöliittymä, jonka
+käyttöön käyttäjältä vaadittiin salasana ja käyttäjätunnus. Käyttäjä pystyi tarkastelemaan lääkehuoneen eri alueiden olosuhteita ja hän sai reaaliaikaisesti tiedon poikkeavista arvoista käyttöliittymään, jolloin
+käyttäjän tuli kuitata poikkeava-arvo. Hälytys poikkeavasta arvosta lähetettiin myös käyttäjän sähköpostiin. Käyttäjä pystyi myös tarkastelemaan aikaisempien päivien mittauksia.
+Käyttäjä sai joka päivä klo 7.00 sähköpostiinsa koosteen edellisen päivän mittausarvoista ja poikkeavista arvoista.
+Loppuprojektin käyttöliittymästä ja toiminnasta on kuvia [projektin loppuraportissa](https://github.com/Okkimonkiainen/Studies/blob/main/EmbeddedSystems/fridge-project-main/Sensoriverkkoprojekti___Loppuraportti.pdf).
 
 ## 4. Object-oriented programming: Olio-ohjelmointi
 Kurssilla käytettiin:
