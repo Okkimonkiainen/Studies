@@ -5,7 +5,8 @@ Kurssilla käytettiin:
 - Java
 - JavaScript
 - HTML ja CSS
-- AWS, Heroku...\
+- AWS, Heroku...
+  
 Koostuu useammista tehtävistä, jotka on tehty Javalla. Tehtävät käsittelevät SOAa, SOAPia, RESTful Web-palveluita, pilvilaskentaa ja web-palveluiden hallintaa. 
 Jokaiselle tehtävälle on tehty PowerPoint-esitys. Kurssi suoritettiin englanniksi.\
 [Tehtävässä 6](https://github.com/Okkimonkiainen/Studies/tree/main/CloudComputing/Task6) käytettiin AWS:ää lääketietokannan teossa ja käytössä.
@@ -13,7 +14,8 @@ Jokaiselle tehtävälle on tehty PowerPoint-esitys. Kurssi suoritettiin englanni
 ## 2. Deeplearning: Syväoppimisen perusteet
 Loppuprojektissa käytettiin:
 - Python, tensorflow
-- Kaggle\
+- Kaggle
+  
 Projektissa tehtiin malli, joka luokittelee kudosnäytteet joko syöpäkudokseksi tai normaaliksi kudokseksi (binääriluokittelu).
 Suurien tiedostokokojen takia, projekti on katsottavissa [GitLabissa](https://gitlab.jyu.fi/tuomtryu/loppuprojekti_ties4141).
 
@@ -24,7 +26,7 @@ Loppuprojektissa käytettiin:
 - CSS
 - SQL
 - PythonAnywhere
-- Gmail\
+- Gmail
 
 Projektissa tehtiin järjestelmä, jonka avulla lääkehuoneen tilan olosuhteita voidaan valvoa. Huoneeseen sijoitettiin neljä ESP32-alustaa (4 solmua), joista yksi keräsi kaikilta solmuilta saadut tiedot ja
 lähetti ne eteenpäin tietyin aikavälein PythonAnywheressä olleelle web-palvelimelle. Sensoreista kerätty data tallennettiin PythonAnywheressä sijaitsevaan tietokantaan. Projektissa tehtiin käyttöliittymä, jossa
@@ -35,13 +37,15 @@ Loppuprojektin käyttöliittymästä ja toiminnasta on kuvia [projektin loppurap
 
 ## 4. Object-oriented programming (OOP): Olio-ohjelmointi
 Kurssilla käytettiin:
-- Java\
+- Java
+
 Harjoitustyönä tehtiin urheilupäiväkirja-sovellus, jossa käyttäjä voi lisätä ja tarkastella suorituksiaan.
 Harjoitustyön tavoitteita ja kuvia sille tehdystä käyttöliittymästä voidaan tarkastella [harjoitustyön raportista](https://github.com/Okkimonkiainen/Studies/blob/main/OOP/olioraportti_tuomisto_rauma.pdf). 
 
 ## 5. Programming 2: Ohjelmointi 2 -loppuprojekti
 Loppuprojektissa käytettiin:
-- C#\
+- C#
+
 Harjoitustyönä tehtiin sovellus, jonka avulla voidaan tallentaa, muokata, poistaa ja tarkastella yrityksen henkilöstön tietoja.
 Henkilöstön tiedot tallentuvat myös erilliseen tiedostoon tietokoneelle. \
 Harjoitustyön tavoitteita ja käyttöliittymän kuvia ja toimintaa voidaan tarkastella [harjoitustyön raportista](https://github.com/Okkimonkiainen/Studies/blob/main/Programming2/Harjoitustyo/Ohjelmointi2_raportti.pdf).
